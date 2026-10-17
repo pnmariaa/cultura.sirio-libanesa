@@ -765,3 +765,14 @@ body > header:not(.cabecalho) nav a:hover {
 .local img:hover {
     transform: scale(1.05);
 }
+
+#voltarTopo.visivel {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+#voltarTopo:hover {
+    background-color: #21080c;
+    transform: translateY(-5px);
+}
