@@ -767,26 +767,31 @@ body > header:not(.cabecalho) nav a:hover {
 }
 
 #voltarTopo {
-    display: none;
-    position: fixed !important;
+    position: fixed;
     bottom: 20px;
     right: 20px;
 
     width: 45px;
     height: 45px;
 
-    background-color: #6b121f !important;
-    color: white !important;
+    background-color: var(--oliva);
+    color: var(--papel);
 
-    border: none !important;
+    border: 1px solid var(--dourado);
     border-radius: 50%;
 
     font-size: 24px;
     cursor: pointer;
-    z-index: 99999;
-    padding: 0;
+
+    z-index: 9999;
+    display: none;
+
+    transition: background-color 0.3s ease,
+                transform 0.3s ease;
 }
 
 #voltarTopo:hover {
-    background-color: #21080c !important;
+    background-color: var(--dourado);
+    color: var(--carvao);
+    transform: translateY(-5px);
 }
