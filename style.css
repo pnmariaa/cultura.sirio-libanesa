@@ -795,3 +795,8 @@ body > header:not(.cabecalho) nav a:hover {
     color: var(--carvao);
     transform: translateY(-5px);
 }
+
+#voltarTopo.visivel {
+    display: block;
+}
+
